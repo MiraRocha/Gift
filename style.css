@@ -247,3 +247,13 @@ input#click {
         background-color: #1d2d44;
     }
 }
+
+.credits {
+    position: absolute;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    z-index: -1;
+    border-radius: 50%;
+    top: calc(50% + 90px);
+}
