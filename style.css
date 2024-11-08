@@ -270,3 +270,43 @@ input#click {
     border-radius: 50%;
     top: calc(50% + 90px);
 }
+
+
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;           /* Menos espaçamento nas telas menores */
+    }
+
+    /* Ajusta o presente ainda mais para caber em telas menores */
+    .gift {
+        width: 130px;
+        height: 80px;
+    }
+
+    .click {
+        width: 160px;
+        height: 30px;
+        left: -5px;
+    }
+
+    .clickgift {
+        font-size: 25px;         /* Menor tamanho de fonte */
+        top: calc(50% - 400px);  /* Ajusta a posição do título */
+    }
+
+    .credits {
+        font-size: 8px;          /* Diminui mais o texto dos créditos */
+        top: calc(50% + 110px);  /* Ajusta a posição vertical */
+    }
+
+    .wishes {
+        font-size: 20px;         /* Diminui o tamanho da fonte */
+    }
+
+    /* Ajusta a posição e o tamanho das partículas */
+    .spark1, .spark2, .spark3, .spark4, .spark5, .spark6 {
+        width: 5px;
+        height: 5px;
+    }
+}
