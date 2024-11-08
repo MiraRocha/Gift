@@ -271,7 +271,7 @@ input#click {
     top: calc(50% + 90px);
 }
 
-@media(ma-width: 768px) {
+@media(max-width: 768px) {
     .container {
         height: auto;            /* Remove a altura fixa */
         padding: 20px;           /* Ajuste de espaçamento */
