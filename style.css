@@ -270,3 +270,40 @@ input#click {
     border-radius: 50%;
     top: calc(50% + 90px);
 }
+
+@media(ma-width: 768px) {
+    .container {
+        height: auto;            /* Remove a altura fixa */
+        padding: 20px;           /* Ajuste de espaçamento */
+    }
+
+    .gift {
+        width: 150px;            /* Diminui o tamanho do presente */
+        height: 100px;
+    }
+
+    .click {
+        width: 180px;            /* Ajusta o tamanho do botão */
+        height: 35px;
+        left: -10px;             /* Ajusta a posição */
+    }
+
+    .clickgift {
+        font-size: 30px;         /* Diminui o tamanho da fonte */
+        top: calc(50% - 450px);  /* Ajuste da posição vertical */
+    }
+
+    .credits {
+        font-size: 10px;         /* Diminui o tamanho do texto */
+        top: calc(50% + 100px);  /* Ajusta a posição vertical */
+    }
+
+    .spark1, .spark2, .spark3, .spark4, .spark5, .spark6 {
+        width: 6px;
+        height: 6px;
+    }
+
+    .wishes {
+        font-size: 24px;         /* Ajusta o tamanho da fonte */
+    }
+}
