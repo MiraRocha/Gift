@@ -248,6 +248,16 @@ input#click {
     }
 }
 
+.clickgift {
+    position: absolute;
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    z-index: -1;
+    border-radius: 50%;
+    top: calc(50% - 350px);
+}
+
 .credits {
     position: absolute;
     color: #333;
