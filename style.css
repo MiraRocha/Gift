@@ -3,15 +3,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Estilos para telas pequenas, como smartphones */
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;  /* Reduz o tamanho da fonte */
-        padding: 10px;    /* Menos espaçamento */
-    }
     .container {
-        width: 90%;       /* Aumenta a largura do container */
+        height: auto;            /* A altura do container não precisa mais ser 100vh */
+        padding: 20px;           /* Adiciona espaçamento ao redor */
+    }
+
+    /* Ajusta o tamanho do botão para dispositivos menores */
+    .gift {
+        width: 150px;            /* Diminui o tamanho do presente */
+        height: 100px;           /* Diminui a altura */
+    }
+
+    /* Ajusta o tamanho do "click" para se adaptar melhor em dispositivos móveis */
+    .click {
+        width: 180px;            /* Diminui a largura do botão */
+        height: 35px;            /* Ajusta a altura do botão */
+        left: -8px;              /* Ajuste da posição */
+    }
+
+    .clickgift {
+        font-size: 30px;         /* Diminui o tamanho do texto */
+        top: calc(50% - 450px);  /* Ajusta a posição vertical */
+    }
+
+    .credits {
+        font-size: 10px;         /* Diminui o tamanho da fonte para créditos */
+        top: calc(50% + 100px);  /* Ajusta a posição para se alinhar com o design */
+    }
+
+    /* Ajusta o tamanho das partículas */
+    .spark1, .spark2, .spark3, .spark4, .spark5, .spark6 {
+        width: 6px;
+        height: 6px;
+    }
+
+    .wishes {
+        font-size: 24px;         /* Ajusta o tamanho da fonte para textos */
     }
 }
+
+/* Estilos para telas ainda menores, como celulares */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;           /* Menos espaçamento nas telas menores */
+    }
+
+    /* Ajusta o presente ainda mais para caber em telas menores */
+    .gift {
+        width: 130px;
+        height: 80px;
+    }
+
+    .click {
+        width: 160px;
+        height: 30px;
+        left: -5px;
+    }
+
+    .clickgift {
+        font-size: 25px;         /* Menor tamanho de fonte */
+        top: calc(50% - 400px);  /* Ajusta a posição do título */
+    }
+
+    .credits {
+        font-size: 8px;          /* Diminui mais o texto dos créditos */
+        top: calc(50% + 110px);  /* Ajusta a posição vertical */
+    }
+
+    .wishes {
+        font-size: 20px;         /* Diminui o tamanho da fonte */
+    }
+
+    /* Ajusta a posição e o tamanho das partículas */
+    .spark1, .spark2, .spark3, .spark4, .spark5, .spark6 {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 .container {
     position: relative;
